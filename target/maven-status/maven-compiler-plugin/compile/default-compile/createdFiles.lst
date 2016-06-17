@@ -18,11 +18,14 @@ com/muks/spring/springfunc/DiBySetter/Student.class
 com/muks/spring/springfunc/DiBySetter/Address2.class
 com/muks/spring/springfunc/DiBySetter/StudentTest.class
 com/muks/mockito/eg1/Portfolio.class
+com/muks/spring/services/config/AppConfig.class
 com/muks/spring/services/greetings/HelloWorldController.class
 com/muks/spring/springfunc/JdbcTemplates/EmployeeDao$1.class
+com/muks/spring/services/config/WebAppInitializer.class
 com/muks/spring/springfunc/JdbcTemplates/EmployeeTest.class
 com/muks/spring/springfunc/InheritanceInSpring/Address.class
 com/muks/spring/springfunc/JdbcTemplates/EmployeeDao.class
+com/muks/spring/services/examples/GreetingController.class
 com/muks/spring/springfunc/AutoWire/B.class
 com/muks/spring/springfunc/DiByConstructor/InjectionByPojo/EmployeeTest.class
 com/muks/spring/springfunc/DiByConstructor/InjectionByPojo/Employee.class
