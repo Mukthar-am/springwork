@@ -6,6 +6,6 @@
         xsi:schemaLocation="http://www.springframework.org/schema/beans
 http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
-    <bean id="a" class="com.muks.springeg.DiByFactoryMethod.A" factory-method="getA"></bean>
+    <bean id="a" class="com.muks.springfunc.DiByFactoryMethod.A" factory-method="getA"></bean>
 
 </beans>

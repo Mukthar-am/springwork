@@ -6,19 +6,19 @@
         xsi:schemaLocation="http://www.springframework.org/schema/beans   
     http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
-    <bean id="e1" class="com.muks.springeg.InheritanceInSpring.Employee">
+    <bean id="e1" class="com.muks.springfunc.InheritanceInSpring.Employee">
         <constructor-arg value="101"></constructor-arg>
         <constructor-arg  value="Sachin"></constructor-arg>
     </bean>
 
-    <bean id="address1" class="com.muks.springeg.InheritanceInSpring.Address">
+    <bean id="address1" class="com.muks.springfunc.InheritanceInSpring.Address">
         <constructor-arg value="21,Lohianagar"></constructor-arg>
         <constructor-arg value="Ghaziabad"></constructor-arg>
         <constructor-arg value="UP"></constructor-arg>
         <constructor-arg value="USA"></constructor-arg>
     </bean>
 
-    <bean id="e2" class="com.muks.springeg.InheritanceInSpring.Employee" parent="e1">
+    <bean id="e2" class="com.muks.springfunc.InheritanceInSpring.Employee" parent="e1">
         <constructor-arg ref="address1"></constructor-arg>
     </bean>
 

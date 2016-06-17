@@ -6,7 +6,7 @@
         xsi:schemaLocation="http://www.springframework.org/schema/beans
 http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
-    <!--<bean id="address11" class="com.muks.springeg.DiBySetter.Address">-->
+    <!--<bean id="address11" class="Address">-->
         <!--<property name="addressLine1" value="51,Lohianagar"></property>-->
         <!--<property name="city" value="Ghaziabad"></property>-->
         <!--<property name="state" value="UP"></property>-->

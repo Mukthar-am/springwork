@@ -6,7 +6,7 @@
         xsi:schemaLocation="http://www.springframework.org/schema/beans
                     http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
-    <bean id="obj" class="com.muks.springeg.DiBySetter.Employee">
+    <bean id="obj" class="com.muks.springfunc.DiBySetter.Employee">
         <property name="id">
             <value>20</value>
         </property>
@@ -23,14 +23,14 @@
 
 
 
-    <bean id="address1" class="com.muks.springeg.DiBySetter.Address2">
+    <bean id="address1" class="com.muks.springfunc.DiBySetter.Address2">
         <property name="addressLine1" value="51,Lohianagar"></property>
         <property name="city" value="Ghaziabad"></property>
         <property name="state" value="UP"></property>
         <property name="country" value="India"></property>
     </bean>
 
-    <bean id="obj2" class="com.muks.springeg.DiBySetter.Emp2">
+    <bean id="obj2" class="com.muks.springfunc.DiBySetter.Emp2">
         <property name="id" value="1"></property>
         <property name="name" value="Sachin Yadav"></property>
         <property name="address" ref="address1"></property>
